@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Snake Game</title>
+    <style type="text/css">
+        body {
+                    background-image:url(chessbackground2.png); 
+                background-repeat: no-repeat;
+                background-position:center;
+            }
+        #snake_icon{
+            position:absolute;
+            top:120px;
+            left:500px;
+            border: 15px dashed rgb(98, 250, 98);
+        }    
+        #maze {
+            position: absolute;
+            top: 400px;
+            left: 550px;
+        }
+        #no_maze {
+            position: absolute;
+            top: 400px;
+            left: 900px;
+        }
+        .noMaze {
+            background-color: aquamarine;
+            border-radius:20px;
+            height: 50px;
+            width: 110px;
+            color: red;
+        }
+        .Maze {
+            background-color: aquamarine;
+            border-radius:20px;
+            height: 50px;
+            width: 110px;
+            color: red;
+        }
+        .Maze:hover {
+            background-color: rgb(159, 159, 243);
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .noMaze:hover {
+            background-color: rgb(159, 159, 243);
+            font-weight: bold;
+            font-size: 20px;
+        }
+    </style>        
+</head>
+<body>
+        <div id="snake_icon"><img src="snake_icon.jpg" />
+        </div>
+        <div id="maze">
+            <a href="index2.html">
+                <button class = "Maze" >MAZE</button>
+            </a>
+        </div>
+        <div id="no_maze">
+                <a href="index1.html">
+                    <button class = "noMaze" >NO MAZE</button>
+                </a>
+            </div>
+</body>
+</html>
